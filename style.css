@@ -4,8 +4,8 @@ body {
   }
 
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: #33443c;
+    color: #f6efe9;
     text-align: center;
     padding: 10px;
   }
@@ -15,3 +15,16 @@ body {
     width: 30%;
     padding: 10px;
   }
+
+  .logo {
+    width: 300px;
+    height: 115px;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 30px;
+    }
