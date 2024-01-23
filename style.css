@@ -10,6 +10,15 @@ body {
     padding: 10px;
   }
 
+  middleheader {
+    background-color: #33443c;
+    color: #f6efe9;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 300px;
+  }
+
   .sura-regular {
     font-family: "Sura", serif;
     font-weight: 400;
@@ -34,3 +43,59 @@ body {
     grid-column-gap: 15px;
     grid-row-gap: 30px;
     }
+
+    .parent2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      }
+
+      .backgroundmain {
+        width: 100%; 
+        height: 300px;
+        background-image: url('images/dipphoto.png');
+        background-size: cover; 
+        background-position: center; 
+        color: #ffffff; 
+        text-align: center; 
+        padding: 20px; 
+        box-sizing: border-box;
+    }
+      
+      .background1 {
+        width: 100%; 
+        height: 300px;
+        background-image: url('images/familyphoto1.png');
+        background-size: cover; 
+        background-position: center; 
+        color: #ffffff; 
+        text-align: center; 
+        padding: 20px; 
+        box-sizing: border-box;
+    }
+
+    .background2 {
+      width: 100%; 
+      height: 300px;
+      background-image: url('images/santa1.png');
+      background-size: cover; 
+      background-position: center; 
+      color: #ffffff; 
+      text-align: center; 
+      padding: 20px; 
+      box-sizing: border-box;
+  }
+
+  .background3 {
+    width: 100%; 
+    height: 300px;
+    background-image: url('images/lupin1.png');
+    background-size: cover; 
+    background-position: center; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
