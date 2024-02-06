@@ -1,101 +1,130 @@
 body {
-    margin: 0;
-    font-family: , sans-serif;
-  }
+  margin: 0;
+  font-family: sans-serif;
+}
 
-  header {
-    background-color: #33443c;
-    color: #f6efe9;
-    text-align: center;
-    padding: 10px;
-  }
+header {
+  background-color: #33443c;
+  color: #f6efe9;
+  text-align: center;
+  padding: 10px;
+}
 
-  middleheader {
-    background-color: #33443c;
-    color: #f6efe9;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-    height: 300px;
-  }
+middleheader {
+  background-color: #33443c;
+  color: #f6efe9;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  height: 300px;
+}
 
-  .sura-regular {
-    font-family: "Sura", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+.sura-regular {
+  font-family: "Sura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  .section {
-    display: inline-block;
-    width: 30%;
-    padding: 10px;
-  }
+.section {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+}
 
-  .logo {
-    width: 100px;
-    height: 40px;
-  }
+.logo {
+  width: 100px;
+  height: 40px;
+}
 
-  .parent {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 15px;
-    grid-row-gap: 30px;
-    }
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 30px;
+}
 
-    .parent2 {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 1fr;
-      grid-column-gap: 0px;
-      grid-row-gap: 0px;
-      }
+.parent2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
 
-      .backgroundmain {
-        width: 100%; 
-        height: 300px;
-        background-image: url('images/dipphoto.png');
-        background-size: cover; 
-        background-position: center; 
-        color: #ffffff; 
-        text-align: center; 
-        padding: 20px; 
-        box-sizing: border-box;
-    }
-      
-      .background1 {
-        width: 100%; 
-        height: 300px;
-        background-image: url('images/familyphoto1.png');
-        background-size: cover; 
-        background-position: center; 
-        color: #ffffff; 
-        text-align: center; 
-        padding: 20px; 
-        box-sizing: border-box;
-    }
+.backgroundmain {
+  width: 100%;
+  height: 300px;
+  background-image: url("images/top.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
 
-    .background2 {
-      width: 100%; 
-      height: 300px;
-      background-image: url('images/santa1.png');
-      background-size: cover; 
-      background-position: center; 
-      color: #ffffff; 
-      text-align: center; 
-      padding: 20px; 
-      box-sizing: border-box;
-  }
+.background1 {
+  width: 100%;
+  height: 300px;
+  background-image: url("images/thin1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
 
-  .background3 {
-    width: 100%; 
-    height: 300px;
-    background-image: url('images/lupin1.png');
-    background-size: cover; 
-    background-position: center; 
-    color: #ffffff; 
-    text-align: center; 
-    padding: 20px; 
-    box-sizing: border-box;
+.background2 {
+  width: 100%;
+  height: 300px;
+  background-image: url("images/thin2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.background3 {
+  width: 100%;
+  height: 300px;
+  background-image: url("images/thin3.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.backgroundbook {
+  width: 100%;
+  height: 300px;
+  background-image: url("images/.backgroundbook.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Styles for the booking button */
+#bookingButton {
+  background-color: #f6efe9;
+  color: #33443c;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#bookingButton:hover {
+  background-color: #33443c;
+  color: #f6efe9;
 }
