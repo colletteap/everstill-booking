@@ -100,7 +100,7 @@ middleheader {
   box-sizing: border-box;
 }
 
-.backgroundbook {
+.background {
   width: 100%;
   height: 300px;
   background-size: cover;
@@ -121,6 +121,14 @@ middleheader {
   grid-row-gap: 0px;
 }
 
+.parentbottombg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+}
+
 /* Styles for the booking button */
 #bookingButton {
   background-color: #f6efe9;
@@ -130,6 +138,7 @@ middleheader {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 90vh;
   transition: background-color 0.3s, color 0.3s;
 }
 
