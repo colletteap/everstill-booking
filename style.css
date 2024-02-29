@@ -38,8 +38,9 @@ header {
 }
 
 .logo {
-  width: 100px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
+
 }
 
 .parent {
@@ -60,13 +61,12 @@ header {
 
 .backgroundmain {
   width: 100%;
-  height: 450px;
+  height: 600px;
   background-image: url("images/top.jpg");
   background-size: cover;
   background-position: center;
   color: #ffffff;
   text-align: center;
-  padding: 20px;
   box-sizing: border-box;
 }
 
