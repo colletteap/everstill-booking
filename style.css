@@ -42,8 +42,18 @@ header {
   height: 90%;
 }
 
+.ourservices {
+  width: 70%;
+  height: 70%;
+}
+
+.booknow {
+  width: 70%;
+  height: 70%;
+}
+
 .espcenter {
-  width: 50%;
+  width: 65%;
   height: 50%;
 }
 
