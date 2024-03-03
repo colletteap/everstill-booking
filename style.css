@@ -33,27 +33,26 @@ header {
 
 .section {
   display: inline-block;
-  width: 90%;
-  padding: 10px;
 }
 
 .logo {
-  width: 70%;
-  height: 90%;
+  width: 90%;
+  height: 70%;
 }
 
 .ourservices {
-  width: 70%;
+  width: 60%;
   height: 70%;
 }
 
 .booknow {
-  width: 70%;
+  width: 60%;
   height: 70%;
 }
 
 .espcenter {
-  width: 65%;
+  padding-top:20px;
+  width: 55%;
   height: 50%;
 }
 
